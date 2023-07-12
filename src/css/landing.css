@@ -1,0 +1,76 @@
+.containerApp {
+  background-color: rgb(244, 255, 255);
+  min-height: 100vh;
+}
+.header {
+  border-bottom: 1px solid #b7b7b7;
+  margin: 0 1vw;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.draganddrop {
+  height: 50vh;
+  width: 30vw;
+  margin-top: 10vh;
+  background-color: transparent !important;
+  border-radius: 30px;
+  border: 3px;
+  border-style: dashed;
+  border-color: aqua;
+}
+.deleteImg {
+  position: relative;
+  top: 0vh;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  padding: 2vh 0;
+}
+.upload__image-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.questionBox {
+  min-width: 200px;
+  margin: 3vh 0;
+}
+.dragImage,
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.senddata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.senddata p {
+  background-color: rgb(112, 112, 230);
+  padding: 2vh 4vw;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+}
+@media only screen and (max-width: 670px) {
+  .body {
+    display: block !important;
+    justify-content: unset;
+    align-items: unset;
+  }
+  .draganddrop {
+    height: 50vh;
+    width: 70vw;
+  }
+}

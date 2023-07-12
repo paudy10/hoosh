@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "BRoya";
+  src: url(./css/fonts/BRoya/BRoya.ttf);
+}
+p,
+div,
+button,
+span,
+select,
+option {
+  font-family: "BRoya";
+  font-size: 17px;
+}
 .App {
   text-align: center;
 }

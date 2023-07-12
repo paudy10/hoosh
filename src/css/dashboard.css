@@ -1,0 +1,48 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: rgb(171, 210, 245);
+  display: flex;
+  justify-content: center;
+}
+.containerApp {
+  background-color: rgb(244, 255, 255);
+  min-height: fit-content;
+}
+.header {
+  border-bottom: 1px solid #b7b7b7;
+  margin: 0 1vw;
+}
+
+.auth {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  flex-direction: column;
+  padding: 0 10vw;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}
+.auth input {
+  direction: rtl;
+  border-radius: 10px;
+  border: none;
+  padding: 1vh 2vw 2vh 2vw;
+  background-color: #ccc;
+  color: white !important;
+}
+.auth div p {
+  margin-top: 4vh;
+  background-color: #a382ea;
+  color: white;
+  padding: 0.5vh 20px 0.7vh 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.auth div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
